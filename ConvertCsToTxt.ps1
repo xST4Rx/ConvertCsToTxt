@@ -28,13 +28,13 @@ Diese Version benötigt KEINE Konfigurationsdatei (config.txt/config.json).
 
 .NOTES
 Autor: xST4R
-Version: 1.2
+Version: 1.0
 Datum: 2025-04-06
 Stellt sicher, dass der 'txt'-Ordner im Skriptverzeichnis erstellt wird.
 Existierende .txt-Dateien im Zielordner werden NICHT überschrieben, sondern übersprungen.
 Verwendet UTF-8 POM Kodierung für die erstellten Textdateien.
 Konvertiert .cs und .xaml Dateien.
-Zieldateinamen enthalten jetzt _cs oder _xaml Suffix.
+Zieldateinamen enthalten _cs oder _xaml Suffix.
 #>
 
 # Das Skript benötigt keine Parameter und keine Konfigurationsdatei.
