@@ -1,6 +1,7 @@
-Konvertiert alle .cs- und .xaml-Dateien im Verzeichnis des Skripts (einschließlich Unterordnern)
-in .txt-Dateien und speichert sie in einem neuen 'txt'-Unterordner.
+Converts all .cs and .xaml files in the script's directory (including subfolders) into .txt files and saves them in a new txt subfolder.
 
-Der Zieldateiname enthält einen Hinweis auf den ursprünglichen Dateityp (_cs.txt oder _xaml.txt).
+The target filename includes a hint about the original file type (_cs.txt or _xaml.txt).
 
-Überspringt die Konvertierung, wenn die Zieldatei bereits existiert.
+Skips conversion if the target file already exists.
+
+Additionally, two folders must be created: txt and dateien.
